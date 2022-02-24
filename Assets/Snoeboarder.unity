@@ -972,7 +972,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 12
+  m_Speed: 9
   m_SpeedVariation: 0
   m_ForceScale: 0.1
   m_UseContactForce: 0
@@ -1145,6 +1145,7 @@ GameObject:
   - component: {fileID: 1761351602}
   - component: {fileID: 1761351606}
   - component: {fileID: 1761351607}
+  - component: {fileID: 1761351608}
   m_Layer: 0
   m_Name: jerry
   m_TagString: Untagged
@@ -1165,8 +1166,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.5
+  m_AngularDrag: 15
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1222,3 +1223,16 @@ CircleCollider2D:
   m_Offset: {x: 0.8, y: 1.2}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &1761351608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761351601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388157ec2d42c4277add8820f44b27cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torqueAmount: 2
