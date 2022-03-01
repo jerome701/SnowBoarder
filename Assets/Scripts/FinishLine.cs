@@ -13,7 +13,7 @@ public class FinishLine : MonoBehaviour
         if(other.tag == "Player")
         {
             finishEffect.Play();
-            Invoke("ReloadScene", 2f);
+            Invoke("ReloadScene",loadDelay);
         }
     }
 

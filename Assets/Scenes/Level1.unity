@@ -6781,7 +6781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c668117ff24c475b9756caa137c37fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadDelay: 1
+  loadDelay: 2
   finishEffect: {fileID: 1058286218}
 --- !u!61 &1568034990
 BoxCollider2D:
@@ -7016,6 +7016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torqueAmount: 2
+  boostSpeed: 30
+  baseSpeed: 20
 --- !u!114 &1761351609
 MonoBehaviour:
   m_ObjectHideFlags: 0
